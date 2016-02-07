@@ -15,3 +15,25 @@ even-valued terms.
 Authors: Mababio, M'Nkubitu, Ndemo
 
 =end
+
+=begin
+Pseudocode
+
+Have an array with the first and second indexes filled.
+
+i.e. fn[0] = 1, fn[1] = 1,
+fn[n] = fn[n-1] + fn[n-2]
+int FibonacciEven  = 0;
+
+array size will be 1*N
+
+while (fn[i] < 4000000){
+
+generate the Fibonacci number
+
+if (fn[n]%2 == 0)
+ evenFn++;
+
+put fn[i]+" "
+}
+We would do a for-loop for the interval given.
