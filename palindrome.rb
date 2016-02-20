@@ -3,7 +3,7 @@ Write a program that gets input from the user and
 determines whether it is a palindrome. Display the
 output.
 
-Callistus Ndemo. 
+Authors:Mababio, M'Nkubitu, Ndemo. 
 =end
 
 class CheckPalindrome
