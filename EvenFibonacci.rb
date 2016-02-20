@@ -16,24 +16,21 @@ Authors: Mababio, M'Nkubitu, Ndemo
 
 =end
 
-=begin
-Pseudocode
+def fn
+  total = 0
+  fn1 = 1
+  fn2 = 1
 
-Have an array with the first and second indexes filled.
+  while fn < 4000000
 
-i.e. fn[0] = 1, fn[1] = 1,
-fn[n] = fn[n-1] + fn[n-2]
-int FibonacciEven  = 0;
+    if fn2 % 2 == 0
+      sums += fn2
+    end
 
-array size will be 1*N
+    new_fn = fn1 + fn2
+    fn1, fn2 = fn2, new_fn
+  end
+  
+end
 
-while (fn[i] < 4000000){
-
-generate the Fibonacci number
-
-if (fn[n]%2 == 0)
- evenFn++;
-
-put fn[i]+" "
-}
-We would do a for-loop for the interval given.
+puts "The sum of even numbers below 4000000 is" + sums 

@@ -3,8 +3,10 @@ Write a program that gets input from the user and
 determines whether it is a palindrome. Display the
 output.
 
-Authors: Mababio, M'Nkubitu, Ndemo. 
+Callistus Ndemo. 
 =end
+
+class CheckPalindrome
 
 #Get Input from the user. 
 puts "Type input to check if palindorome?"  
@@ -15,4 +17,7 @@ def palidrome(inPut)
   downcase_input = input.downcase.gsub(" ", "") #downcases the input and replaces the white spaces
   reversed_input  ==  downcase_input.reverse
 end
+
+end
+ 
  
