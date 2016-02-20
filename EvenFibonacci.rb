@@ -31,6 +31,8 @@ def fn
     fn1, fn2 = fn2, new_fn
   end
   
+  puts "The sum of even numbers below 4000000 is" + sums 
+  
 end
 
-puts "The sum of even numbers below 4000000 is" + sums 
+
