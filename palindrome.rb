@@ -14,7 +14,7 @@ STDOUT.flush
 inPut = gets.chomp  #removes the /n at the end of string input
 
 def palidrome(inPut)
-  downcase_input = input.downcase.gsub(" ", "") #downcases the input and replaces the white spaces
+  downcase_input = input.downcase.gsub(/[^a-z0-9]/i,'') #downcases the input and replaces the white spaces
   reversed_input  ==  downcase_input.reverse
 end
 
